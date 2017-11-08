@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+	<div class="my-auto">
+		<h2>{{ page.title | escape }}</h2>
+		{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+		<div class="subheading mb-5">{{ page.subhead | escape }} [Posted on {{ page.date | date: date_format }}]</div>
+		{{ content }}
+	</div>
+</section>

@@ -1,0 +1,60 @@
+---
+layout: default
+---
+
+<section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+	<div class="my-auto">
+		<h1 class="mb-0">{{ site.title | escape }}</h1>
+		<div class="subheading mb-5">{{ site.tagline | escape }}</div>
+		<p class="mb-5">{{ site.description | escape }}</p>
+		<ul class="list-inline list-social-icons mb-0">
+			{% if site.facebook_username %}
+			<li class="list-inline-item">
+				{% include icon-facebook.html username=site.facebook_username %}
+			</li>
+			{% endif %}
+			{% if site.twitter_username %}
+			<li class="list-inline-item">
+				{% include icon-twitter.html username=site.twitter_username %}
+			</li>
+			{% endif %}
+			{% if site.linkedin_username %}
+			<li class="list-inline-item">
+				{% include icon-linkedin.html username=site.linkedin_username %}
+			</li>
+			{% endif %}
+			{% if site.github_username %}
+			<li class="list-inline-item">
+				{% include icon-github.html username=site.github_username %}
+			</li>
+			{% endif %}
+		</ul>
+	</div>
+</section>
+
+
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+	<div class="my-auto">
+		<h2 class="mb-5">Posts</h2>
+		
+		{% for post in site.posts %}
+		<div class="resume-item d-flex flex-column flex-md-row mb-5">
+			<div class="resume-content mr-auto">
+				{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+				<h3 class="mb-0">
+					<a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+					[{{ post.date | date: date_format }}]
+				</h3>
+				<p>{{ post.subhead | escape }}</p>
+			</div>
+		</div>
+		{% endfor %}
+		
+	</div>
+</section>
+
+
+
+
+
+
