@@ -16,12 +16,12 @@
 title: Dan Truong
 email: dtruongservices@gmail.com
 tagline: >-
-    IIIIIIT support professional by day. Web developer and data hobbyist by night.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lacinia augue arcu, pharetra interdum nisl maximus at. Maecenas vitae maximus libero. Duis auctor imperdiet lacus, sed porttitor felis commodo sit amet. Sed euismod leo eget dictum vestibulum. Aenean id neque leo.
 description: >- 
-    IT support professional by day. Web developer and data hobbyist by night.
+    Pellentesque egestas, lectus vestibulum ornare condimentum, tellus dolor feugiat justo, pulvinar pretium risus purus a lectus. Sed et laoreet risus. Etiam fermentum in massa a malesuada. Integer a iaculis risus. Cras et magna pharetra, consectetur lorem ut, faucibus est. Vivamus mi orci, pretium sit amet pellentesque vitae, ultricies at tellus. Fusce massa sapien, pharetra nec massa eget, congue mattis tellus. Nullam metus dolor, congue vitae dapibus id, aliquet quis odio. Etiam at enim commodo, tempus lacus vitae, pulvinar diam. Praesent posuere nisi vitae dictum placerat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+#twitter_username: jekyllrb
 github_username:  dantruong
 linkedin_username:  dantruong52435
 
